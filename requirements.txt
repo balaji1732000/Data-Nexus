@@ -27,4 +27,4 @@ seaborn==0.13.2
 statsmodels==0.14.0
 pandasai
 sqlalchemy
-io
+imblearn

@@ -6,12 +6,12 @@ from app.src.handle_null_value import (
     remove_high_null,
     fill_null_values,
 )
-from src.preprocess import (
+from app.src.preprocess import (
     convert_to_numeric,
     remove_rows_with_empty_target,
     remove_duplicates,
 )
-from src.llm_service import (
+from app.src.llm_service import (
     decide_fill_null,
     decide_encode_type,
     decide_model,
@@ -19,8 +19,8 @@ from src.llm_service import (
     decide_test_ratio,
     decide_balance,
 )
-from src.pca import decide_pca, perform_pca
-from src.model_service import (
+from app.src.pca import decide_pca, perform_pca
+from app.src.model_service import (
     split_data,
     check_and_balance,
     fpr_and_tpr,
@@ -28,8 +28,8 @@ from src.model_service import (
     save_model,
     calculate_f1_score,
 )
-from src.predictive_model import train_selected_model
-from src.util import (
+from app.src.predictive_model import train_selected_model
+from app.src.util import (
     select_Y,
     contain_null_attributes_info,
     separate_fill_null_list,

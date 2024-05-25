@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-from src.preprocess import convert_to_integer
+from app.src.preprocess import convert_to_integer
 
 def decide_pca(df, cumulative_variance_threshold=0.95, min_dim_reduction_ratio=0.1):
     """

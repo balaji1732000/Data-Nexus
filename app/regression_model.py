@@ -1,39 +1,39 @@
 import streamlit as st
-from util import developer_info, developer_info_static
-from src.plot import (
+from app.util import developer_info, developer_info_static
+from app.src.plot import (
     correlation_matrix_plotly,
     plot_residuals,
     plot_predictions_vs_actual,
     plot_qq_plot,
 )
-from src.handle_null_value import (
+from app.src.handle_null_value import (
     contains_missing_value,
     remove_high_null,
     fill_null_values,
 )
-from src.preprocess import (
+from app.src.preprocess import (
     convert_to_numeric,
     remove_rows_with_empty_target,
     remove_duplicates,
     transform_data_for_clustering,
 )
-from src.llm_service import (
+from app.src.llm_service import (
     decide_fill_null,
     decide_encode_type,
     decide_target_attribute,
     decide_test_ratio,
     decide_regression_model,
 )
-from src.pca import decide_pca, perform_PCA_for_regression
-from src.model_service import (
+from app.src.pca import decide_pca, perform_PCA_for_regression
+from app.src.model_service import (
     split_data,
     save_model,
     calculate_r2_score,
     calculate_mse_and_rmse,
     calculate_mae,
 )
-from src.regression_model import train_selected_regression_model
-from src.util import (
+from app.src.regression_model import train_selected_regression_model
+from app.src.util import (
     select_Y,
     contain_null_attributes_info,
     separate_fill_null_list,

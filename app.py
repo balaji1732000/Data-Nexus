@@ -13,6 +13,7 @@ from app.visualization import data_visualization
 from app.src.util import read_file_from_streamlit
 import base64
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Modules for Chat Analyser
 import os
 import streamlit as st
@@ -39,10 +40,10 @@ def reload_module(module_name):
     return sys.modules[module_name]
 
 
-history_module = reload_module("modules.history")
-layout_module = reload_module("modules.layout")
-utils_module = reload_module("modules.utils")
-sidebar_module = reload_module("modules.sidebar")
+history_module = reload_module("app.modules.history")
+layout_module = reload_module("app.modules.layout")
+utils_module = reload_module("app.modules.utils")
+sidebar_module = reload_module("app.modules.sidebar")
 
 ChatHistory = history_module.ChatHistory
 Layout = layout_module.Layout

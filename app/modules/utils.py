@@ -4,7 +4,7 @@ import streamlit as st
 import pdfplumber
 
 # from modules.chatbot import Chatbot
-from modules.embedder import Embedder
+from app.modules.embedder import Embedder
 
 
 class Utilities:
