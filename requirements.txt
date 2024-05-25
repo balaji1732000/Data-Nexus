@@ -28,3 +28,4 @@ statsmodels==0.14.0
 pandasai
 sqlalchemy
 imblearn
+openpyxl
