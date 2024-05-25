@@ -1,0 +1,98 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 5E86-E7FD
+F:.
+|   .env
+|   .gitignore
+|   app.py
+|   directory_structure.txt
+|   LICENSE
+|   pandasai.log
+|   README.md
+|   requirements.txt
+|   temp_chart.png
+|   
++---.devcontainer
+|       devcontainer.json
+|       
++---app
+|   |   cluster_model.py
+|   |   prediction_model.py
+|   |   regression_model.py
+|   |   util.py
+|   |   visualization.py
+|   |   __init__.py
+|   |   
+|   +---config
+|   |       config.yaml
+|   |       
+|   +---modules
+|   |   |   chatbot.py
+|   |   |   embedder.py
+|   |   |   history.py
+|   |   |   layout.py
+|   |   |   sidebar.py
+|   |   |   utils.py
+|   |   |   
+|   |   +---robby_sheet
+|   |   |   |   table_tool.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           table_tool.cpython-311.pyc
+|   |   |           
+|   |   \---__pycache__
+|   |           chatbot.cpython-311.pyc
+|   |           embedder.cpython-311.pyc
+|   |           history.cpython-311.pyc
+|   |           layout.cpython-311.pyc
+|   |           sidebar.cpython-311.pyc
+|   |           utils.cpython-311.pyc
+|   |           
+|   +---src
+|   |   |   cluster_model.py
+|   |   |   handle_null_value.py
+|   |   |   llm_service.py
+|   |   |   model_service.py
+|   |   |   pca.py
+|   |   |   plot.py
+|   |   |   predictive_model.py
+|   |   |   preprocess.py
+|   |   |   regression_model.py
+|   |   |   util.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---config
+|   |   |       config.yaml
+|   |   |       
+|   |   \---__pycache__
+|   |           cluster_model.cpython-311.pyc
+|   |           handle_null_value.cpython-311.pyc
+|   |           llm_service.cpython-311.pyc
+|   |           model_service.cpython-311.pyc
+|   |           pca.cpython-311.pyc
+|   |           plot.cpython-311.pyc
+|   |           predictive_model.cpython-311.pyc
+|   |           preprocess.cpython-311.pyc
+|   |           regression_model.cpython-311.pyc
+|   |           util.cpython-311.pyc
+|   |           __init__.cpython-311.pyc
+|   |           
+|   \---__pycache__
+|           cluster_model.cpython-311.pyc
+|           prediction_model.cpython-311.pyc
+|           regression_model.cpython-311.pyc
+|           util.cpython-311.pyc
+|           visualization.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---assets
+|       data-analysis-4179002-3479081-ezgif.com-optimize.gif
+|       
++---cache
+|       cache_db.db
+|       cache_db_0.10.db
+|       
++---embeddings
+\---exports
+    \---charts
+            temp_chart.png
+            

@@ -5,12 +5,12 @@ import importlib
 import sys
 import pandas as pd
 from io import BytesIO
-from util import load_lottie, stream_data, welcome_message, introduction_message
-from prediction_model import prediction_model_pipeline
-from cluster_model import cluster_model_pipeline
-from regression_model import regression_model_pipeline
-from visualization import data_visualization
-from src.util import read_file_from_streamlit
+from app.util import load_lottie, stream_data, welcome_message, introduction_message
+from app.prediction_model import prediction_model_pipeline
+from app.cluster_model import cluster_model_pipeline
+from app.regression_model import regression_model_pipeline
+from app.visualization import data_visualization
+from app.src.util import read_file_from_streamlit
 import base64
 
 # Modules for Chat Analyser
@@ -19,11 +19,11 @@ import streamlit as st
 from io import StringIO
 import re
 import sys
-from modules.robby_sheet.table_tool import PandasAgent
-from modules.history import ChatHistory
-from modules.layout import Layout
-from modules.utils import Utilities
-from modules.sidebar import Sidebar
+from app.modules.robby_sheet.table_tool import PandasAgent
+from app.modules.history import ChatHistory
+from app.modules.layout import Layout
+from app.modules.utils import Utilities
+from app.modules.sidebar import Sidebar
 from dotenv import load_dotenv
 
 load_dotenv()

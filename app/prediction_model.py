@@ -1,7 +1,7 @@
 import streamlit as st
-from util import developer_info, developer_info_static
-from src.plot import confusion_metrix, roc, correlation_matrix_plotly
-from src.handle_null_value import (
+from app.util import developer_info, developer_info_static
+from app.src.plot import confusion_metrix, roc, correlation_matrix_plotly
+from app.src.handle_null_value import (
     contains_missing_value,
     remove_high_null,
     fill_null_values,
