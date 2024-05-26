@@ -1,5 +1,9 @@
 DataNexus offers a revolutionary approach to data analysis, making it accessible and efficient for everyone. It leverages the power of conversational AI and machine learning automation to simplify the entire process.
 
+**Try Our Live Demo Here**: [Data Nexus](https://datanexus.streamlit.app)
+### Demo
+https://www.youtube.com/watch?v=WMqIJO3ZFjU
+
 ## Features
 
 _Intuitive Chat Interface:_ Interact with your data through natural language commands. No coding or technical expertise required.
@@ -24,4 +28,43 @@ _Intelligent Feature Engineering:_ DataNexus assists with generating relevant fe
 _Model Selection and Training:_ DataNexus analyzes your data and recommends the most suitable model. You can then train the model with a single command.
 _Visualized Results:_ Gain insights from your data through interactive visualizations displayed within the chat interface.
 
+
 DataNexus empowers everyone to unlock the true potential of their data, unlocking a world of data-driven decision making.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+- Python 3.10.14
+- pip (Python Package Installer)
+
+### Installation
+
+A step by step series of examples that tell you how to get a development environment running:
+
+```bash
+# Clone the repository
+git clone https://github.com/balaji1732000/data-nexus.git
+
+# Change directory
+cd Data-Nexus
+
+# Create env
+python -m venv env
+
+# Activate env
+. \env\scripts\activate
+
+# Install requirements
+pip install -r requirements.txt
+```
+### Running the app
+
+```bash
+# Run the app
+streamlit run app.py
+```
