@@ -29,3 +29,4 @@ pandasai
 sqlalchemy
 imblearn
 openpyxl
+signal
