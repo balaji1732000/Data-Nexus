@@ -67,7 +67,7 @@ page = st.sidebar.selectbox(
 # TITLE SECTION
 with st.container():
     if page == "Home":
-        layout.show_header("Chat ")
+        layout.show_header("Data")
         st.title("Welcome to DataNexus Analysis")
         if "initialized" not in st.session_state:
             st.session_state.initialized = True
