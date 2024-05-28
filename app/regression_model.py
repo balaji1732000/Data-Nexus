@@ -1,5 +1,5 @@
-from signal import signal, SIGPIPE, SIG_DFL 
-signal(SIGPIPE,SIG_DFL) 
+#from signal import signal, SIGPIPE, SIG_DFL 
+#signal(SIGPIPE,SIG_DFL) 
 
 import streamlit as st
 from app.util import developer_info, developer_info_static
